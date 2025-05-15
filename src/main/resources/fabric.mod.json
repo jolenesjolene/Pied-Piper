@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "piedpiper",
+	"version": "${version}",
+	"name": "Pied Piper",
+	"description": "A mod inspired by the story of the Pied Piper, specifically focusing on the part involving rats!",
+	"authors": [
+		"Jolene <3"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/pied-piper",
+		"sources": "https://github.com/jolenesjolene/Pied-Piper"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/piedpiper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jolene.piedpiper.PiedPiper"
+		],
+		"fabric-datagen": [
+			"net.jolene.piedpiper.PiedPiperDataGenerator"
+		],
+		"client": [
+			"net.jolene.piedpiper.PiedPiperClient"
+		]
+	},
+	"mixins": [
+		"piedpiper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
