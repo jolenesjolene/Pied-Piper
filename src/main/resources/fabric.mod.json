@@ -3,9 +3,10 @@
 	"id": "piedpiper",
 	"version": "${version}",
 	"name": "Pied Piper",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "I am playing notes n' stuff cuz I’m in modded Minecraft!",
 	"authors": [
-		"Me!"
+		"Zetalasis",
+		"Jolene <3"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,6 +21,9 @@
 		],
 		"fabric-datagen": [
 			"net.jolene.piedpiper.PiedPiperDataGenerator"
+		],
+		"client": [
+			"net.jolene.piedpiper.PiedPiperClient"
 		]
 	},
 	"mixins": [
